@@ -1,0 +1,493 @@
+.new-season-section{
+    /* border:1px solid red; */
+    padding: 60px 0px 40px ;
+    background-color: #fefdfc;
+    position: relative;
+}
+.new-season-title{
+    font-size: 40px;
+    line-height: 50px;
+    color: #cb9e61;
+    text-align: center;
+
+}
+.new-season-section .container-fluid{
+    /* border:1px solid aqua; */
+    /* padding: 0px; */
+
+}
+.new-season-section .container-fluid .row{
+    /* border: 1px solid lime; */
+    /* padding: 0px; */
+   
+   
+}
+.new-season-section .container-fluid .row .inner-new{
+    /* border:1px solid blue; */
+    /* margin: 0px; */
+    padding: 0px;
+}
+.inner-new-left{
+    /* border: 1px solid red; */
+    margin-top: 440px;
+    z-index: 10;
+    padding: 0px 10px 0px 0px;
+    
+
+}
+.inner-new-left img{
+    width: 100%;
+    z-index: 10;
+}
+.inner-new-left .new-left-text{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    background: #8c8c8c;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+.inner-new .row{
+    /* border: 1px solid black; */
+    margin: 0px;
+    
+    
+}
+.inner-new .row .inner-new-right{
+    /* border: 1px solid red; */
+    padding: 0px;  
+}
+.inner-new-right .inner-new-right-box{
+    /* border: 1px solid blue; */
+}
+.inner-new-right .inner-new-right-box img{
+    width: 100%;
+}
+.inner-new-right .inner-new-right-box  .new-right-text{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px;
+    background: #8c8c8c;
+    color: white;
+    text-align: center;
+}
+.inner-new-right .new-right-text1{
+    font-size: 25px;
+    line-height: 35px;
+    color: #cb9e61;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    margin-top: 20px;
+}
+.inner-new-right-box1{
+    /* border: 1px solid lime; */
+    padding:0px 30px 0px 10px;
+}
+.inner-new-right-box1 img{
+    width: 100%;
+}
+.inner-new-texture{
+    /* border: 2px solid blue; */
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    z-index: -1;
+   
+}
+.inner-new-texture1{
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    z-index: 1;
+    width: 70%;
+    height: 30%;
+   
+}
+.inner-new-texture1 img{
+    width: 100%;
+}
+.inner-new-texture2{
+    /* border: 2px solid blue; */
+    position: absolute;
+    bottom: 60px;
+    left: 253px;
+    z-index: 1;
+    width: 70%;
+    height: 30%;
+    display: none;
+}
+
+/* *************************************************** */
+@media (min-width:279px) and (max-width:319px){
+    /* .new1{
+        display: none;
+    } */
+    .inner-new-texture1{
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        z-index: 1;
+        width: 70%;
+        height: 30%;
+        display: none;
+       
+    }
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 30px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        font-size: 25px;
+        line-height: 35px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 0px 0px 20px;
+        padding: 0px 10px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box{
+        /* border: 1px solid blue; */
+        padding: 0px 10px;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 18px;
+        line-height: 28px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 20px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding: 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    /* .new1{
+        display: none;
+    } */
+    .inner-new-texture1{
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        z-index: 1;
+        width: 70%;
+        height: 30%;
+        display: none;
+       
+    }
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 40px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        font-size: 25px;
+        line-height: 35px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 0px 0px 20px;
+        padding: 0px 10px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box{
+        /* border: 1px solid blue; */
+        padding: 0px 10px;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 20px;
+        line-height: 30px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 20px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding: 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}
+
+@media (min-width:481px) and (max-width:767px){
+    /* .new1{
+        display: none;
+    } */
+    .inner-new-texture1{
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        z-index: 1;
+        width: 70%;
+        height: 30%;
+        display: none;
+       
+    }
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 30px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        font-size: 30px;
+        line-height: 40px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 0px 0px 20px;
+        padding: 0px 10px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box{
+        /* border: 1px solid blue; */
+        padding: 0px 10px;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 22px;
+        line-height: 32px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 20px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding: 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    /* .new1{
+        display: none;
+    } */
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 50px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        /* border: 1px solid blue; */
+        font-size: 30px;
+        line-height: 40px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 290px 0px 0px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 18px;
+        line-height: 28px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 10px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding:0px 20px 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}
+
+@media (min-width:993px) and (max-width:1023px){
+    /* .new1{
+        display: none;
+    } */
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 50px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        font-size: 40px;
+        line-height: 50px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 320px 0px 0px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 18px;
+        line-height: 28px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 10px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding: 0px 30px 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}
+@media (min-width:1024px) and (max-width:1075px){
+    /* .new1{
+        display: none;
+    } */
+    .new-season-section{
+        /* border:1px solid red; */
+        padding: 50px 0px 40px ;
+        background-color: #fefdfc;
+    }
+    .new-season-title{
+        font-size: 40px;
+        line-height: 50px;
+        color: #cb9e61;
+        text-align: center;
+    }
+    .inner-new-left{
+        /* border: 1px solid red; */
+        margin: 340px 0px 0px;
+    
+    }
+    .inner-new-left .new-left-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .inner-new-right-box  .new-right-text{
+        font-size: 12px;
+        line-height: 22px;
+        margin: 0px;
+        background: #8c8c8c;
+        color: white;
+        text-align: center;
+    }
+    .inner-new-right .new-right-text1{
+        font-size: 18px;
+        line-height: 28px;
+        color: #cb9e61;
+        text-align: left;
+        padding: 0px 0px 0px 10px;
+        margin-top: 10px;
+    }
+    .inner-new-right-box1{
+        /* border: 1px solid lime; */
+        padding:0px 30px 0px 10px;
+    }
+    .inner-new-texture2{
+        display: none;
+       
+    }
+}

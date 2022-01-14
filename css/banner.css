@@ -1,0 +1,184 @@
+.banner-section{
+    /* border: 1px solid blue; */
+    margin: 0px;
+    padding: 0px;
+    background-color: #fefdfc;
+}
+.banner-section .inner-banner{
+    /* border: 1px solid lime; */
+}
+.inner-banner .inner-image{
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+}
+.inner-banner .inner-image img{
+    width: 100%;
+}
+.inner-banner .inner-image .inner-box{
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+.inner-signup-sec{
+    /* border: 1px solid aqua; */
+    display: block;
+}
+.inner-signup-sec .form{
+    /* border: 1px solid green; */
+    /* padding-left: 50px; */
+}
+.inner-signup-sec .form .email{
+    border: 1px solid #999999;
+    padding: 5px 60px 5px 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.inner-signup-sec .form .btn{
+    border: 1px solid #cb9e61;
+    font-size: 17px;
+    padding: 4px 86px;
+    border-radius: 0px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background: #d3a565;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.inner-signup-sec .form .btn:hover, .inner-signup-sec .form .btn:focus{
+    background: #e6b776;
+    box-shadow: none;
+    
+}
+/* ************************************************** */
+@media (min-width:279px) and (max-width:319px){
+    .inner-banner .inner-image .inner-box{
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        bottom: 5px;
+        right: 0px;
+    }
+    .inner-signup-sec .form .email{
+        padding: 3px 0px 3px 0px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .inner-signup-sec .form .btn{
+        border: 1px solid #cb9e61;
+        font-size: 12px;
+        padding: 3px 56px;
+        border-radius: 0px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: #d3a565;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .inner-banner .inner-image .inner-box{
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        bottom: 5px;
+    }
+    .inner-signup-sec .form .email{
+        padding: 3px 0px 3px 5px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .inner-signup-sec .form .btn{
+        border: 1px solid #cb9e61;
+        font-size: 12px;
+        padding: 3px 58px;
+        border-radius: 0px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: #d3a565;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .inner-banner .inner-image .inner-box{
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        right: 0px;
+    }
+    .inner-signup-sec .form .email{
+        padding: 3px 23px 3px 23px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .inner-signup-sec .form .btn{
+        border: 1px solid #cb9e61;
+        font-size: 12px;
+        padding: 3px 79px;
+        border-radius: 0px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: #d3a565;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .inner-banner .inner-image .inner-box{
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+    .inner-signup-sec .form .email{
+        padding: 3px 0px 3px 10px;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+    .inner-signup-sec .form .btn{
+        border: 1px solid #cb9e61;
+        font-size: 14px;
+        padding: 3px 64px;
+        border-radius: 0px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: #d3a565;
+    }
+}
+@media (min-width:992px) and (max-width:1075px){
+    .inner-banner .inner-image .inner-box{
+        /* border: 1px solid blue; */
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+    .inner-signup-sec .form .email{
+        padding: 4px 30px 4px 20px;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+    .inner-signup-sec .form .btn{
+        border: 1px solid #cb9e61;
+        font-size: 14px;
+        padding: 5px 83px;
+        border-radius: 0px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: #d3a565;
+    }
+}
+
+
